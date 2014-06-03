@@ -1,0 +1,16 @@
+{
+  "name": "Serial and WebSocket example",
+  "description": "Serial and WebSocket example",
+  "version": "1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "128": "128x128.png",
+              "16": "16x16.png" },
+  "permissions": [
+     "serial"
+  ]
+}
